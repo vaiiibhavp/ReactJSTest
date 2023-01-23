@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  box-sizing: border-box;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.wrapper {
+  border-bottom: 1px solid black;
+  padding: 12px;
+}
+.nameSpace {
+  margin-right: 10px;
+}
+.carModel > div:last-child,
+.carDetails > div:last-child {
+  text-align: right;
+}
+.w-10 {
+  width: 10%;
+  text-align: right;
+  font-weight: 500;
+}
+.w-30 {
+  width: 30%;
+  text-align: right;
+  font-weight: 500;
+}
+.opacity-7 {
+  opacity: 0.7;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-100 {
+  width: 100%;
+}
+.carDetails {
+  padding: 0 10px;
+  font-size: 14px;
+}
+.progessBar {
+  height: 8px;
+}
+.carDetails > div > div {
+  height: 20px;
+}
+
+.colorDot {
+  height: 8px;
+  width: 8px;
+  background: red;
+  display: inline-block;
+}
+
+.percent {
+  color: #3f7c96;
+}
+
+.others {
+  color: #979797;
+}
+.valid {
+  background: #00c18f;
+}
+.modelCount {
+  color: #0da3df;
+}
+.mis-matched {
+  background: #f48112;
+}
+
+.missing {
+  background: #da5953;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+h2,
+h4 {
+  margin: 0;
+  text-align: left;
+}
+h2 {
+  margin-top: 20px;
+}
